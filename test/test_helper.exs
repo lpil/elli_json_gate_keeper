@@ -1,0 +1,2 @@
+:inets.start()
+ExUnit.start()
