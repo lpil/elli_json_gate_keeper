@@ -4,7 +4,7 @@ defmodule Elli.JsonGateKeeper.MixProject do
   def project do
     [
       app: :elli_json_gate_keeper,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -25,7 +25,7 @@ defmodule Elli.JsonGateKeeper.MixProject do
   defp deps do
     [
       # Elli!
-      {:elli, "~> 2.1"},
+      {:elli, "~> 2.0 or ~> 3.0"},
       # JSON encoder
       {:jason, "~> 1.0"},
       # Automatic test runner
